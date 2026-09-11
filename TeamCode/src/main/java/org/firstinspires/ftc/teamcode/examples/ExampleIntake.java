@@ -21,9 +21,11 @@ public class ExampleIntake {
     }
     public void spin(double power){
         intakeL.setPower(power);
-        intakeR.setPower(power);
+        intakeR.setPower(-power);
     }
     public void update(Gamepad gamepad1){
         spin((gamepad1.y) ?1: (gamepad1.x) ?-1:0);
     }
+
+
 }
