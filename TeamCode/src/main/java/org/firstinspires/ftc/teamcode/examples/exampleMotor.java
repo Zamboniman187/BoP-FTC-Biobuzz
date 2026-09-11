@@ -19,6 +19,7 @@ public class exampleMotor extends OpMode {
         bRight = hardwareMap.get(DcMotor.class, "bRight");
         bRight.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         bLeft = hardwareMap.get(DcMotor.class, "bLeft");
+        bLeft.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
     }
 
     @Override
