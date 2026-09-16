@@ -32,7 +32,7 @@ public class ExampleMotor extends OpMode {
         fLeft.setPower(y+x+r);
         fRight.setPower(y-x-r);
         bLeft.setPower(y-x+r);
-        bRight.setPower(y+x-r);
+        bRight.setPower(y+x+r);
 
     }
 }
