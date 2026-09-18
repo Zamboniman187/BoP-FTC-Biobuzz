@@ -10,6 +10,7 @@ public class exampleMotor extends OpMode {
     DcMotor fRight;
     DcMotor bRight;
     DcMotor bLeft;
+
     @Override
     public void init() {
         fLeft = hardwareMap.get(DcMotor.class, "fLeft");
